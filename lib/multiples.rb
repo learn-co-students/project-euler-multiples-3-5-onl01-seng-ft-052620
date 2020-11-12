@@ -22,7 +22,7 @@ class Multiples
         def sum_multiples
         
         array = collect_multiples
-        return array.reduce(0) { |sum, num| sum + num }
+        return array.reduce(:+)
         
         end
 end
