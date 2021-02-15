@@ -21,3 +21,8 @@ def sum_multiples(limit)
   return sum
 
 end 
+
+thousand = 1000
+
+print sum_multiples(thousand)
+
