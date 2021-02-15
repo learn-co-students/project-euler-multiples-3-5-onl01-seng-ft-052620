@@ -22,7 +22,12 @@ def sum_multiples(limit)
 
 end 
 
-thousand = 1000
 
-print sum_multiples(thousand)
+
+def test 
+  a = [10, 20, 30, 40]
+
+  a.each {|x| print sum_multiples(x)}  
+  
+end 
 
